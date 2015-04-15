@@ -10,20 +10,20 @@ Blå resp grön
 
 _Lokal ändring_
 
-blå klon
-cp kalmarevisan.txt kalmarevisan_kopia.txt
-open kalmarevisan_kopia
-ed s/Dalarö/Kalmare/g
-git status
-git diff
-git add
-git status
-git diff
-git diff --cached
-git commit
+* blå klon
+* cp kalmarevisan.txt kalmarevisan_kopia.txt
+* open kalmarevisan_kopia
+* ed s/borste/kvast/
+* git status
+* git diff
+* git add
+* git status
+* git diff
+* git diff --cached
+* git commit
 
 _Lokal historik_
-ed s/borste/kvast/1
+ed s/käft/trut
 git add
 git diff
 git commit
@@ -33,7 +33,7 @@ find .git
 
 _Parallell utveckling_
 grön klon
-ed s/söndagen/fredagen
+ed s/Dalrö/Kalmare
 git add
 git diff
 git commit
@@ -66,12 +66,12 @@ cat kalmarevisan.txt
 _Konflikt_
 (behöver fixas)
 blå klon
-s/onsdagen/torsdagen
+s/biblioteket/puben
 git add
 git commit
 
 grön klon
-s/onsdagen/fredagen
+s/biblioteket/restaurangen
 git add
 git commit
 
@@ -82,7 +82,7 @@ grön klon
 git push -> fail
 git pull -> confict
 
-...
+fix : krogen
 
 
 
